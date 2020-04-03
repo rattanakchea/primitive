@@ -6,3 +6,5 @@ node_modules
 .DS_Store
 
 docs/css/devin-ui.css
+dist/css/devin-ui.css
+dist/css/devin-ui.min.css
