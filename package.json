@@ -14,7 +14,8 @@
   },
   "scripts": {
     "sass": "node-sass ./src/scss/ -o ./dist/css/ -w -r --source-map-embed --source-map-contents --output-style expanded | node-sass ./src/scss/main.scss ./dist/css/main.min.css -w --output-style compressed",
-    "sass:docs": "node-sass -w -r ./src/scss/ -o ./docs/css/"
+    "sass:docs": "node-sass -w -r ./src/scss/ -o ./docs/css/",
+    "start": "npm run sass & lite-server -c configs/lite-server-config.json"
   },
   "keywords": [
     "sass",
@@ -30,5 +31,9 @@
   "bugs": {
     "url": "https://github.com/taniarascia/primitive/issues"
   },
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "http-server": "^0.12.1",
+    "lite-server": "^2.5.4"
+  }
 }

@@ -1,10 +1,10 @@
-# Primitive UI
+# Devin UI
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![primitive-ui on NPM](https://img.shields.io/npm/v/primitive-ui.svg?color=green&label=primitive-ui)](https://www.npmjs.com/package/primitive-ui)
+Devin UI is forked repo from https://github.com/taniarascia/primitive. I'm very inspired by Tania's work and her writing.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 A minimalist front-end design toolkit built with Sass for developing responsive, browser-consistent web apps. Primitive also provides helpful, browser-consistent styling for default HTML elements - buttons, forms, tables, lists, and typography.
-
-### [View documentation](https://taniarascia.github.io/primitive)
 
 ## Installation
 
@@ -14,7 +14,7 @@ A minimalist front-end design toolkit built with Sass for developing responsive,
 - Save the stylesheet and link to it in the head of your project.
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/primitive-ui/dist/css/main.css">
+<link rel="stylesheet" href="">
 ```
 
 It's all set to go and your HTML elements will be given sensible default styling.
@@ -54,7 +54,7 @@ Many websites have been built with Primitive, such as [taniarascia.com](https://
 
 Please feel free to fork, comment, critique, or submit a pull request.
 
-## Author
+## Original Author
 
 - [Tania Rascia](https://www.taniarascia.com)
 
