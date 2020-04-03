@@ -13,7 +13,7 @@
     "node-sass": "^4.12.0"
   },
   "scripts": {
-    "sass": "node-sass ./docs/scss/ -o ./dist/css/ -w -r --source-map-embed --source-map-contents --output-style expanded | node-sass ./docs/scss/main.scss ./dist/css/main.min.css -w --output-style compressed",
+    "sass": "node-sass ./docs/scss/ -o ./dist/css/ -w -r --source-map-embed --source-map-contents --output-style expanded | node-sass ./docs/scss/devin-ui.scss ./dist/css/devin-ui.min.css -w --output-style compressed",
     "sass:docs": "node-sass ./docs/scss/devin-ui.scss -wo ./docs/css",
     "dev": "npm run sass:docs & lite-server -c configs/lite-server-config.json",
     "build": "npm run sass"
