@@ -1,0 +1,22 @@
+/**
+ * custom css
+ * a place to override variables in the main _variables.scss
+ * Thus, to provide a more customized look and feel
+ */
+
+//==============================================================================
+// Custom Colors
+//==============================================================================
+
+$background : white !default;
+$primary-color : rgb(131, 46, 201) !default;
+$secondary-color : #29de7d !default;
+$accent-color : #cdcdcd !default;
+$alternate-background : #fafafa !default;
+$alternate-color : #404040 !default;
+$link-color : $primary-color !default;
+$link-hover-color : darken($link-color, 15%) !default;
+$highlight : #ffeea8 !default;
+$error : #D33C40 !default;
+$success : #29de7d !default;
+$bq-border : 16px solid #f0f0f0 !default;

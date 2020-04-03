@@ -8,13 +8,17 @@ A minimalist front-end design toolkit built with Sass for developing responsive,
 
 ## Installation
 
+### TODO
+
+- [] provide npm install for devin-ui package. Can be install from directly using Github.
+
 ### CSS quick start (easy)
 
 - [Download the stylesheet](https://taniarascia.github.io/primitive/css/main.css) or use the CDN URL: [https://unpkg.com/primitive-ui/dist/css/main.css](https://unpkg.com/primitive-ui/dist/css/main.css).
 - Save the stylesheet and link to it in the head of your project.
 
 ```html
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="" />
 ```
 
 It's all set to go and your HTML elements will be given sensible default styling.
@@ -34,13 +38,13 @@ And run a Sass watch on the project.
 npm run sass
 ```
 
-Now you can begin modifying variables in `variables.scss`. This file will define your colors, typography, sizes, breakpoints, buttons, borders, and more. Define all your variables here to keep your project organized. 
+Now you can begin modifying variables in `variables.scss`. This file will define your colors, typography, sizes, breakpoints, buttons, borders, and more. Define all your variables here to keep your project organized.
 
 You can view `dist/test.html` or `templates/template.html` to see some example elements as you make changes.
 
 ## Motivation
 
-Primitive was originally built by [Tania Rascia](https://www.taniarascia.com) to understand how a responsive CSS framework works from scratch, and how to use Sass, the CSS preprocessor. 
+Primitive was originally built by [Tania Rascia](https://www.taniarascia.com) to understand how a responsive CSS framework works from scratch, and how to use Sass, the CSS preprocessor.
 
 Primitive makes it incredibly simple to set the foundation for a sustainable styling system. You get the freedom to design your site however you want, with a solid, easy-to-understand underlying framework.
 
