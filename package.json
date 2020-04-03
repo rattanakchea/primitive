@@ -13,9 +13,10 @@
     "node-sass": "^4.12.0"
   },
   "scripts": {
-    "sass": "node-sass ./src/scss/ -o ./dist/css/ -w -r --source-map-embed --source-map-contents --output-style expanded | node-sass ./src/scss/main.scss ./dist/css/main.min.css -w --output-style compressed",
-    "sass:docs": "node-sass -w -r ./src/scss/ -o ./docs/css/",
-    "start": "npm run sass & lite-server -c configs/lite-server-config.json"
+    "sass": "node-sass ./docs/scss/ -o ./dist/css/ -w -r --source-map-embed --source-map-contents --output-style expanded | node-sass ./src/scss/main.scss ./dist/css/main.min.css -w --output-style compressed",
+    "sass:docs": "node-sass -w -r ./docs/scss/ -o ./docs/css/",
+    "dev": "npm run sass:docs & lite-server -c configs/lite-server-config.json",
+    "build": "npm run sass"
   },
   "keywords": [
     "sass",
